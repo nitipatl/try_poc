@@ -17,6 +17,7 @@ export const schema = new GraphQLSchema({
       getProductList: {
         type: new GraphQLList(Product),
         args: {
+          id: { type: GraphQLInt },
           page: { type: GraphQLInt },
           limit: { type: GraphQLInt }
         },

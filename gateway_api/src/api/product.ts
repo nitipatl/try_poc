@@ -18,6 +18,9 @@ export class HTTPProductAPI implements ProductAPI {
         sku: 2
       }
     ]
+    if( args['id'] ) {
+      return [results[args['id']]]
+    }
     return results
   }
 }
