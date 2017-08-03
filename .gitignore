@@ -1,2 +1,5 @@
 build/
 node_modules/
+*/output.xml
+*/log.html
+*/report.html
