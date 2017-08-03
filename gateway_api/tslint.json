@@ -1,0 +1,28 @@
+{
+    "extends": "tslint:recommended",
+    "rules": {
+        "max-classes-per-file": [ true, 5 ],
+        "quotemark": [true, "single"],
+        "interface-name": ["never-prefix"],
+        "no-console": ["log", "error"],
+        "arrow-parens": [true, "ban-single-arg-parens"],
+        "no-unused-expression-chai": true,
+        "variable-name": [true, "allow-leading-underscore"],
+        "member-ordering": [true, { "order": ["static-field"] }],
+        "semicolon": [true, "never"],
+        "ban-types": {
+            "options": [
+                ["Object", "Avoid using the `Object` type. Did you mean `object`?"],
+                ["Function", "Avoid using the `Function` type. Prefer a specific function type, like `() => void`."],
+                ["Boolean", "Avoid using the `Boolean` type. Did you mean `boolean`?"],
+                ["Number", "Avoid using the `Number` type. Did you mean `number`?"],
+                ["String", "Avoid using the `String` type. Did you mean `string`?"]
+            ]
+        },
+        "object-literal-sort-keys": false,
+        "ordered-imports": [ false ]
+    },
+    "rulesDirectory": [
+        "node_modules/tslint-no-unused-expression-chai/rules"
+    ]
+}

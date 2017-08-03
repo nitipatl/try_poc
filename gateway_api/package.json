@@ -1,0 +1,50 @@
+{
+  "name": "gateway_api",
+  "version": "1.0.0",
+  "description": "Sample API Gateway",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/up1/try-poc"
+  },
+  "scripts": {
+    "test": "test",
+    "start": "npm run build; node build/index.js",
+    "build": "npm run build-ts",
+    "build-ts": "tsc",
+    "watch": "npm run watch-ts",
+    "watch-ts": "tsc -w",
+    "clean": "rimraf build"
+  },
+  "author": "Somkait Puisungnoen <somkiat.p@gmail.com> (http://www.somkiat.cc)",
+  "license": "ISC",
+  "dependencies": {
+    "@types/form-data": "0.0.33",
+    "@types/lodash": "^4.14.70",
+    "@types/request": "^2.0.0",
+    "@types/request-promise": "^4.1.36",
+    "form-data": "^2.2.0",
+    "graphql": "^0.10.3",
+    "graphql-server-koa": "^1.0.0",
+    "apollo-server-koa": "^1.0.5",
+    "koa": "^2.3.0",
+    "koa-bodyparser": "^4.2.0",
+    "koa-multer": "^1.0.1",
+    "koa-router": "^7.2.1",
+    "lodash": "^4.17.4",
+    "node-fetch": "^1.7.1",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.1",
+    "rxjs": "^5.4.2"
+  },
+  "devDependencies": {
+    "@types/graphql": "^0.9.3",
+    "@types/node": "^8.0.7",
+    "@types/node-fetch": "^1.6.7",
+    "prettier": "^1.5.2",
+    "rimraf": "^2.6.1",
+    "tslint": "^5.5.0",
+    "typescript": "^2.4.1",
+    "typescript-eslint-parser": "^4.0.0"
+  }
+}
