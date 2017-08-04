@@ -7,5 +7,6 @@ TODO-List
 * [ ] Testing react with Storybook
 * [x] Testing Gateway API with Robotframwork
 * [x] Testing Gateway API with Postman
+* [x] Testing Gateway API with Silk
 * [ ] Testing REST API with Robotframwork
 * [ ] Testing Web UI with Robotframwork
