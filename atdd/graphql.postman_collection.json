@@ -1,0 +1,76 @@
+{
+	"id": "af2cd717-6fe4-9d20-3044-f296af1a81d2",
+	"name": "graphql",
+	"description": "",
+	"order": [
+		"61d88482-7cf6-e377-79b2-f972e97581d5",
+		"5509ac33-aea7-e44b-1b7e-71a80e756b95"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1501742735149,
+	"owner": "1453931",
+	"public": false,
+	"requests": [
+		{
+			"id": "5509ac33-aea7-e44b-1b7e-71a80e756b95",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:9000/graphql",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": "postman.setGlobalVariable(\"variable_key\", \"variable_value\");\n\nvar jsonData = JSON.parse(responseBody);\ntests[\"Size of data is 2\"] = jsonData.data.getProductList.length === 2;\nvar first = jsonData.data.getProductList[0]\ntests[\"Key productName existing\"] = first.productName !== undefined;\ntests[\"Key shortDescription not existing\"] = first.shortDescription === undefined;\ntests[\"Key longDescription not existing\"] = first.longDescription === undefined;\ntests[\"Key sku not existing\"] = first.sku === undefined;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1501814428226,
+			"name": "http://localhost:9000/graphql",
+			"description": "",
+			"collectionId": "af2cd717-6fe4-9d20-3044-f296af1a81d2",
+			"responses": [],
+			"rawModeData": "{\"query\":\"{getProductList {productName}}\",\n\"variables\":null,\n\"operationName\":null} "
+		},
+		{
+			"id": "61d88482-7cf6-e377-79b2-f972e97581d5",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:9000/graphql",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": "postman.setGlobalVariable(\"variable_key\", \"variable_value\");\n\nvar jsonData = JSON.parse(responseBody);\ntests[\"Size of data is 2\"] = jsonData.data.getProductList.length === 2;\nvar first = jsonData.data.getProductList[0]\ntests[\"Key productName existing\"] = first.productName !== undefined;\ntests[\"Key shortDescription existing\"] = first.shortDescription !== undefined;\ntests[\"Key longDescription existing\"] = first.longDescription !== undefined;\ntests[\"Key sku existing\"] = first.sku !== undefined;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1501814374306,
+			"name": "http://localhost:9000/graphql",
+			"description": "",
+			"collectionId": "af2cd717-6fe4-9d20-3044-f296af1a81d2",
+			"responses": [],
+			"rawModeData": "{\"query\":\"{getProductList {productName shortDescription longDescription sku}}\",\n\"variables\":null,\n\"operationName\":null} "
+		}
+	]
+}
