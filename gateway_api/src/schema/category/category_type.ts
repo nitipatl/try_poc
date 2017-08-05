@@ -28,3 +28,12 @@ export const CategoryType = new GraphQLObjectType({
         label: { type: LocaleType }
     }
 })
+
+export const LocaleInput = new GraphQLInputObjectType ({
+    name: 'LocaleInput',
+    fields: {
+        en: { type: GraphQLString },
+        th: { type: GraphQLString },
+        cn: { type: GraphQLString }
+    }
+})
