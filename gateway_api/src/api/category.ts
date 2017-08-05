@@ -4,6 +4,7 @@ export interface CategoryAPI {
   list(args: object)
   insert(args: object)
   update(id: number, args: object)
+  delete(id: number)
 }
 
 export class HTTPCategoryAPI implements CategoryAPI {
@@ -32,8 +33,8 @@ export class HTTPCategoryAPI implements CategoryAPI {
         name: args['name'], 
         image: args['image'], 
         label: args['label']
-    });
-    return this.results;
+    })
+    return this.results
   }
   public update(id: number, args: object) {
     id -= 1
@@ -41,8 +42,13 @@ export class HTTPCategoryAPI implements CategoryAPI {
         name: args['name'], 
         image: args['image'], 
         label: args['label']
-    };
-    return this.results[id];
+    }
+    return this.results[id]
+  }
+  public delete(id: number) {
+    id -= 1
+    this.results.splice(id, 1)
+    return this.results
   }
   public list(args: object) {
 

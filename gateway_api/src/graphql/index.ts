@@ -65,6 +65,16 @@ export const schema = new GraphQLSchema({
           var re = category.update(args.id, args.input)
           return re
         }
+      },
+      deleteCategory: {
+        type: new GraphQLList(CategoryType),
+        args: {
+          id: {type: new GraphQLNonNull(GraphQLID)}
+        },
+        resolve: (source, args, { api: { category } }: { api: { category: CategoryAPI } }) => {
+          var re = category.delete(args.id)
+          return re
+        }
       }
     }
   })
