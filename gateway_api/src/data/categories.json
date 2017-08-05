@@ -1,0 +1,2004 @@
+[
+    {
+        "name": "beauty",
+        "image": {
+            "url": "http://lorempixel.com",
+            "secureUrl": "https://lorempixel.com"
+        },
+        "label": {
+            "en": "Beauty",
+            "th": "ความงาม",
+            "cn": "美容"
+        },
+        "subCategories": [
+            {
+                "name": "makeup",
+                "image": {
+                    "url": "http://lorempixel.com",
+                    "secureUrl": "https://lorempixel.com"
+                },
+                "label": {
+                    "en": "Makeup",
+                    "th": "เครื่องสำอาง",
+                    "cn": "彩妆"
+                },
+                "subCategories": [
+                    {
+                        "name": "face",
+                        "image": {
+                            "url": "http://lorempixel.com",
+                            "secureUrl": "https://lorempixel.com"
+                        },
+                        "label": {
+                            "en": "Face",
+                            "th": "ใบหน้า",
+                            "cn": "脸部"
+                        },
+                        "subCategories": [
+                            {
+                                "name": "bb-and-cc-cream",
+                                "image": {
+                                    "url": "http://lorempixel.com",
+                                    "secureUrl": "https://lorempixel.com"
+                                },
+                                "label": {
+                                    "en": "BB & CC Cream",
+                                    "th": "บีบี & ซีซี ครีม",
+                                    "cn": "BB霜&CC霜"
+                                }
+                            },
+                            {
+                                "name": "blush",
+                                "image": {
+                                    "url": "http://lorempixel.com",
+                                    "secureUrl": "https://lorempixel.com"
+                                },
+                                "label": {
+                                    "en": "Blush",
+                                    "th": "บลัชออน",
+                                    "cn": "腮红"
+                                }
+                            },
+                            {
+                                "name": "concealer",
+                                "image": {
+                                    "url": "http://lorempixel.com",
+                                    "secureUrl": "https://lorempixel.com"
+                                },
+                                "label": {
+                                    "en": "Concealer",
+                                    "th": "คอนซีลเลอร์",
+                                    "cn": "遮瑕膏"
+                                }
+                            },
+                            {
+                                "name": "foundation",
+                                "image": {
+                                    "url": "http://lorempixel.com",
+                                    "secureUrl": "https://lorempixel.com"
+                                },
+                                "label": {
+                                    "en": "Foundation",
+                                    "th": "รองพื้น",
+                                    "cn": "粉底"
+                                }
+                            },
+                            {
+                                "name": "powder",
+                                "image": {
+                                    "url": "http://lorempixel.com",
+                                    "secureUrl": "https://lorempixel.com"
+                                },
+                                "label": {
+                                    "en": "Powder",
+                                    "th": "แป้ง",
+                                    "cn": "蜜粉"
+                                }
+                            },
+                            {
+                                "name": "primer-and-setting-spray",
+                                "image": {
+                                    "url": "http://lorempixel.com",
+                                    "secureUrl": "https://lorempixel.com"
+                                },
+                                "label": {
+                                    "en": "Primer & Setting Spray",
+                                    "th": "ไพรเมอร์ & สเปรย์เซ็ทเครื่องสำอาง",
+                                    "cn": "隔离霜& 定妆喷雾"
+                                }
+                            },
+                            {
+                                "name": "bronzer-shading-and-highlighter",
+                                "image": {
+                                    "url": "http://lorempixel.com",
+                                    "secureUrl": "https://lorempixel.com"
+                                },
+                                "label": {
+                                    "en": "Bronzer, Shading & Highlighter",
+                                    "th": "บรอนเซอร์, เฉดดิ้ง & ไฮไลเตอร์",
+                                    "cn": "阴影/修颜/高光"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "eyes",
+                        "image": {
+                            "url": "http://lorempixel.com",
+                            "secureUrl": "https://lorempixel.com"
+                        },
+                        "label": {
+                            "en": "Eyes",
+                            "th": "ดวงตา",
+                            "cn": "眼部"
+                        },
+                        "subCategories": [
+                            {
+                                "name": "eyebrows",
+                                "image": {
+                                    "url": "http://lorempixel.com",
+                                    "secureUrl": "https://lorempixel.com"
+                                },
+                                "label": {
+                                    "en": "Eyebrows",
+                                    "th": "คิ้ว",
+                                    "cn": "眉笔"
+                                }
+                            },
+                            {
+                                "name": "eyeliner",
+                                "image": {
+                                    "url": "http://lorempixel.com",
+                                    "secureUrl": "https://lorempixel.com"
+                                },
+                                "label": {
+                                    "en": "Eyeliner",
+                                    "th": "อายไลเนอร์",
+                                    "cn": "眼线笔"
+                                }
+                            },
+                            {
+                                "name": "eyeshadow",
+                                "label": {
+                                    "en": "Eyeshadow",
+                                    "th": "อายแชโดว์",
+                                    "cn": "眼影"
+                                }
+                            },
+                            {
+                                "name": "mascara",
+                                "image": {
+                                    "url": "http://lorempixel.com",
+                                    "secureUrl": "https://lorempixel.com"
+                                },
+                                "label": {
+                                    "en": "Mascara",
+                                    "th": "มาสคาร่า",
+                                    "cn": "睫毛膏"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "lips",
+                        "image": {
+                            "url": "http://lorempixel.com",
+                            "secureUrl": "https://lorempixel.com"
+                        },
+                        "label": {
+                            "en": "Lips",
+                            "th": "ริมฝีปาก",
+                            "cn": "唇部"
+                        },
+                        "subCategories": [
+                            {
+                                "name": "lip-gloss",
+                                "image": {
+                                    "url": "http://lorempixel.com",
+                                    "secureUrl": "https://lorempixel.com"
+                                },
+                                "label": {
+                                    "en": "Lip Gloss",
+                                    "th": "ลิปกลอส",
+                                    "cn": "唇彩"
+                                }
+                            },
+                            {
+                                "name": "lip-Liner-and-pencil",
+                                "image": {
+                                    "url": "http://lorempixel.com",
+                                    "secureUrl": "https://lorempixel.com"
+                                },
+                                "label": {
+                                    "en": "Lip Liner & Pencil",
+                                    "th": "ลิปไลเนอร์&เพนซิล",
+                                    "cn": "唇笔"
+                                }
+                            },
+                            {
+                                "name": "lipstick",
+                                "image": {
+                                    "url": "http://lorempixel.com",
+                                    "secureUrl": "https://lorempixel.com"
+                                },
+                                "label": {
+                                    "en": "Lipstick",
+                                    "th": "ลิปสติก",
+                                    "cn": "唇膏"
+                                }
+                            },
+                            {
+                                "name": "Lip Care",
+                                "image": {
+                                    "url": "http://lorempixel.com",
+                                    "secureUrl": "https://lorempixel.com"
+                                },
+                                "label": {
+                                    "en": "lip-care",
+                                    "th": "ลิปแคร์",
+                                    "cn": "润唇膏"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "palette",
+                        "image": {
+                            "url": "http://lorempixel.com",
+                            "secureUrl": "https://lorempixel.com"
+                        },
+                        "label": {
+                            "en": "Palette",
+                            "th": "พาเลทท์",
+                            "cn": "彩妆盘"
+                        }
+                    },
+                    {
+                        "name": "nails",
+                        "image": {
+                            "url": "http://lorempixel.com",
+                            "secureUrl": "https://lorempixel.com"
+                        },
+                        "label": {
+                            "en": "Nails",
+                            "th": "เล็บ",
+                            "cn": "甲油"
+                        }
+                    },
+                    {
+                        "name": "brushes-and-applicators",
+                        "image": {
+                            "url": "http://lorempixel.com",
+                            "secureUrl": "https://lorempixel.com"
+                        },
+                        "label": {
+                            "en": "Brushes & Applicators",
+                            "th": "แปรง, พัฟ, ฟองน้ำแต่งหน้า",
+                            "cn": "妆刷"
+                        }
+                    },
+                    {
+                        "name": "makeup-tools-and-accessories",
+                        "image": {
+                            "url": "http://lorempixel.com",
+                            "secureUrl": "https://lorempixel.com"
+                        },
+                        "label": {
+                            "en": "Makeup Tools & Accessories",
+                            "th": "อุปกรณ์แต่งหน้าอื่นๆ",
+                            "cn": "彩妆工具及配件"
+                        }
+                    },
+                    {
+                        "name": "makeup-set",
+                        "image": {
+                            "url": "http://lorempixel.com",
+                            "secureUrl": "https://lorempixel.com"
+                        },
+                        "label": {
+                            "en": "Makeup Set",
+                            "th": "ชุดเครื่องสำอาง",
+                            "cn": "彩妆套装"
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "skincare",
+                "image": {
+                    "url": "http://lorempixel.com",
+                    "secureUrl": "https://lorempixel.com"
+                },
+                "label": {
+                    "en": "skincare",
+                    "th": "ผลิตภัณฑ์ดูแลผิว",
+                    "cn": "护肤"
+                },
+                "subCategories": [
+                    {
+                        "name": "facial",
+                        "image": {
+                            "url": "http://lorempixel.com",
+                            "secureUrl": "https://lorempixel.com"
+                        },
+                        "label": {
+                            "en": "Facial",
+                            "th": "ผิวหน้า",
+                            "cn": "面部"
+                        },
+                        "subCategories": [
+                            {
+                                "name": "cleanse-and-tone",
+                                "image": {
+                                    "url": "http://lorempixel.com",
+                                    "secureUrl": "https://lorempixel.com"
+                                },
+                                "label": {
+                                    "en": "Cleanse & Tone",
+                                    "th": "ทำความสะอาดผิวหน้า",
+                                    "cn": "洁面乳"
+                                }
+                            },
+                            {
+                                "name": "mask",
+                                "image": {
+                                    "url": "http://lorempixel.com",
+                                    "secureUrl": "https://lorempixel.com"
+                                },
+                                "label": {
+                                    "en": "Mask",
+                                    "th": "มาส์ก",
+                                    "cn": "面膜"
+                                }
+                            },
+                            {
+                                "name": "moisturizers",
+                                "image": {
+                                    "url": "http://lorempixel.com",
+                                    "secureUrl": "https://lorempixel.com"
+                                },
+                                "label": {
+                                    "en": "Moisturizers",
+                                    "th": "มอยเจอร์ไรเซอร์",
+                                    "cn": "保湿滋润"
+                                }
+                            },
+                            {
+                                "name": "facial-massage-oil",
+                                "image": {
+                                    "url": "http://lorempixel.com",
+                                    "secureUrl": "https://lorempixel.com"
+                                },
+                                "label": {
+                                    "en": "Facial Massage Oil",
+                                    "th": "น้ำมันนวดหน้า",
+                                    "cn": "面按摩油"
+                                }
+                            },
+                            {
+                                "name": "sun-care",
+                                "image": {
+                                    "url": "http://lorempixel.com",
+                                    "secureUrl": "https://lorempixel.com"
+                                },
+                                "label": {
+                                    "en": "Sun Care",
+                                    "th": "กันแดด",
+                                    "cn": "防晒保护"
+                                }
+                            },
+                            {
+                                "name": "serum-and-special-treatment",
+                                "image": {
+                                    "url": "http://lorempixel.com",
+                                    "secureUrl": "https://lorempixel.com"
+                                },
+                                "label": {
+                                    "en": "Serum & Special Treatment",
+                                    "th": "เซรั่ม & ทรีตเมนต์พิเศษ",
+                                    "cn": "精华&特殊护肤品"
+                                }
+                            },
+                            {
+                                "name": "eye-cream",
+                                "image": {
+                                    "url": "http://lorempixel.com",
+                                    "secureUrl": "https://lorempixel.com"
+                                },
+                                "label": {
+                                    "en": "Eye Cream",
+                                    "th": "อายครีม",
+                                    "cn": "眼部护理"
+                                }
+                            },
+                            {
+                                "name": "anti-aging-and-wrinkles",
+                                "image": {
+                                    "url": "http://lorempixel.com",
+                                    "secureUrl": "https://lorempixel.com"
+                                },
+                                "label": {
+                                    "en": "Anti-aging & Wrinkles",
+                                    "th": "ริ้วรอยแห่งวัย",
+                                    "cn": "抗老方案"
+                                }
+                            },
+                            {
+                                "name": "hydration",
+                                "image": {
+                                    "url": "http://lorempixel.com",
+                                    "secureUrl": "https://lorempixel.com"
+                                },
+                                "label": {
+                                    "en": "Hydration",
+                                    "th": "เติมความชุ่มชื่น",
+                                    "cn": "保湿方案"
+                                }
+                            },
+                            {
+                                "name": "lifting-and-firming",
+                                "image": {
+                                    "url": "http://lorempixel.com",
+                                    "secureUrl": "https://lorempixel.com"
+                                },
+                                "label": {
+                                    "en": "Lifting & Firming",
+                                    "th": "ยกกระชับผิว",
+                                    "cn": "紧致方案"
+                                }
+                            },
+                            {
+                                "name": "pores-refining",
+                                "image": {
+                                    "url": "http://lorempixel.com",
+                                    "secureUrl": "https://lorempixel.com"
+                                },
+                                "label": {
+                                    "en": "Pores Refining",
+                                    "th": "กระชับรูขุมขน",
+                                    "cn": "毛孔细致方案"
+                                }
+                            },
+                            {
+                                "name": "oil-control",
+                                "image": {
+                                    "url": "http://lorempixel.com",
+                                    "secureUrl": "https://lorempixel.com"
+                                },
+                                "label": {
+                                    "en": "Oil Control",
+                                    "th": "ควบคุมความมัน",
+                                    "cn": "控油"
+                                }
+                            },
+                            {
+                                "name": "dark-spots-and-uneven-skin-tone",
+                                "image": {
+                                    "url": "http://lorempixel.com",
+                                    "secureUrl": "https://lorempixel.com"
+                                },
+                                "label": {
+                                    "en": "Dark Spots & Uneven Skin Tone",
+                                    "th": "จุดด่างดำ & สีผิวไม่สม่ำเสมอ",
+                                    "cn": "面上黑星及肤色不均"
+                                }
+                            },
+                            {
+                                "name": "whitening",
+                                "image": {
+                                    "url": "http://lorempixel.com",
+                                    "secureUrl": "https://lorempixel.com"
+                                },
+                                "label": {
+                                    "en": "Whitening",
+                                    "th": "ผิวขาวกระจ่างใส",
+                                    "cn": "美白"
+                                }
+                            },
+                            {
+                                "name": "lack-of-radiance",
+                                "image": {
+                                    "url": "http://lorempixel.com",
+                                    "secureUrl": "https://lorempixel.com"
+                                },
+                                "label": {
+                                    "en": "Lack of Radiance",
+                                    "th": "ผิวหมองคล้ำ",
+                                    "cn": "缺乏光泽"
+                                }
+                            },
+                            {
+                                "name": "acne",
+                                "image": {
+                                    "url": "http://lorempixel.com",
+                                    "secureUrl": "https://lorempixel.com"
+                                },
+                                "label": {
+                                    "en": "acne",
+                                    "th": "ปัญหาสิว",
+                                    "cn": "抗痘方案"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "body",
+                        "image": {
+                            "url": "http://lorempixel.com",
+                            "secureUrl": "https://lorempixel.com"
+                        },
+                        "label": {
+                            "en": "Body",
+                            "th": "ผิวกาย",
+                            "cn": "身体护理"
+                        },
+                        "subCategories": [
+                            {
+                                "name": "moisturizers",
+                                "image": {
+                                    "url": "http://lorempixel.com",
+                                    "secureUrl": "https://lorempixel.com"
+                                },
+                                "label": {
+                                    "en": "Moisturizers",
+                                    "th": "บำรุงผิวกาย",
+                                    "cn": "身体保湿护理"
+                                }
+                            },
+                            {
+                                "name": "body-massage-oil",
+                                "image": {
+                                    "url": "http://lorempixel.com",
+                                    "secureUrl": "https://lorempixel.com"
+                                },
+                                "label": {
+                                    "en": "Body Massage Oil",
+                                    "th": "น้ำมันนวดผิวกาย",
+                                    "cn": "身体按摩油"
+                                }
+                            },
+                            {
+                                "name": "body-scrubs",
+                                "image": {
+                                    "url": "http://lorempixel.com",
+                                    "secureUrl": "https://lorempixel.com"
+                                },
+                                "label": {
+                                    "en": "Body Scrubs",
+                                    "th": "สครับขัดผิว",
+                                    "cn": "身体磨砂膏"
+                                }
+                            },
+                            {
+                                "name": "hand-and-nail",
+                                "image": {
+                                    "url": "http://lorempixel.com",
+                                    "secureUrl": "https://lorempixel.com"
+                                },
+                                "label": {
+                                    "en": "Hand & Nail",
+                                    "th": "มือและเล็บ",
+                                    "cn": "手及指甲"
+                                }
+                            },
+                            {
+                                "name": "sun-care",
+                                "image": {
+                                    "url": "http://lorempixel.com",
+                                    "secureUrl": "https://lorempixel.com"
+                                },
+                                "label": {
+                                    "en": "Sun Care",
+                                    "th": "กันแดด",
+                                    "cn": "防晒保护"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "skincare-set",
+                        "image": {
+                            "url": "http://lorempixel.com",
+                            "secureUrl": "https://lorempixel.com"
+                        },
+                        "label": {
+                            "en": "Skincare Set",
+                            "th": "ชุดผลิตภัณฑ์บำรุงผิว",
+                            "cn": "护肤品套装"
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "perfumes",
+                "image": {
+                    "url": "http://lorempixel.com",
+                    "secureUrl": "https://lorempixel.com"
+                },
+                "label": {
+                    "en": "Perfumes",
+                    "th": "น้ำหอม",
+                    "cn": "香水"
+                }
+            }
+        ]
+    },
+    {
+        "name": "electronics",
+        "image": {
+            "url": "http://lorempixel.com",
+            "secureUrl": "https://lorempixel.com"
+        },
+        "label": {
+            "en": "Electronics",
+            "th": "อิเล็คทรอนิกส์",
+            "cn": "电器"
+        },
+        "subCategories": [
+            {
+                "name": "camera-and-accessories",
+                "image": {
+                    "url": "http://lorempixel.com",
+                    "secureUrl": "https://lorempixel.com"
+                },
+                "label": {
+                    "en": "Camera & Accessories",
+                    "th": "กล้องและอุปกรณ์เสริม",
+                    "cn": "影像与摄影配件"
+                },
+                "subCategories": [
+                    {
+                        "name": "Camera",
+                        "image": {
+                            "url": "http://lorempixel.com",
+                            "secureUrl": "https://lorempixel.com"
+                        },
+                        "label": {
+                            "en": "Camera",
+                            "th": "กล้อง",
+                            "cn": "相机"
+                        }
+                    },
+                    {
+                        "name": "camera-accessories",
+                        "image": {
+                            "url": "http://lorempixel.com",
+                            "secureUrl": "https://lorempixel.com"
+                        },
+                        "label": {
+                            "en": "Camera Accessories",
+                            "th": "อุปกรณ์เสริมสำหรับกล้อง",
+                            "cn": "摄影必备"
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "mobiles-tablets-accessories",
+                "image": {
+                    "url": "http://lorempixel.com",
+                    "secureUrl": "https://lorempixel.com"
+                },
+                "label": {
+                    "en": "Mobiles, Tablets & Accessories",
+                    "th": "โทรศัพท์มือถือ, แท็บเล็ต & อุปกรณ์เสริม",
+                    "cn": "手机，平板及手机配件"
+                },
+                "subCategories": [
+                    {
+                        "name": "mobiles-and-tablets",
+                        "image": {
+                            "url": "http://lorempixel.com",
+                            "secureUrl": "https://lorempixel.com"
+                        },
+                        "label": {
+                            "en": "Mobiles & Tablets",
+                            "th": "โทรศัพท์มือถือ & แท็บเล็ต",
+                            "cn": "手机及平板"
+                        }
+                    },
+                    {
+                        "name": "mobile-accessories",
+                        "image": {
+                            "url": "http://lorempixel.com",
+                            "secureUrl": "https://lorempixel.com"
+                        },
+                        "label": {
+                            "en": "mobile-accessories",
+                            "th": "อุปกรณ์เสริมสำหรับโทรศัพท์",
+                            "cn": "手机配件"
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "audio",
+                "image": {
+                    "url": "http://lorempixel.com",
+                    "secureUrl": "https://lorempixel.com"
+                },
+                "label": {
+                    "en": "Audio",
+                    "th": "เครื่องเสียง",
+                    "cn": "影音"
+                },
+                "subCategories": [
+                    {
+                        "name": "headphones",
+                        "image": {
+                            "url": "http://lorempixel.com",
+                            "secureUrl": "https://lorempixel.com"
+                        },
+                        "label": {
+                            "en": "Headphones",
+                            "th": "หูฟัง",
+                            "cn": "耳机"
+                        }
+                    },
+                    {
+                        "name": "speaker",
+                        "image": {
+                            "url": "http://lorempixel.com",
+                            "secureUrl": "https://lorempixel.com"
+                        },
+                        "label": {
+                            "en": "Speaker",
+                            "th": "ลำโพง",
+                            "cn": "音箱"
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "wearables",
+                "image": {
+                    "url": "http://lorempixel.com",
+                    "secureUrl": "https://lorempixel.com"
+                },
+                "label": {
+                    "en": "Wearables",
+                    "th": "อุปกรณ์สวมใส่อิเล็กทรอนิกส์",
+                    "cn": "可穿戴设备"
+                }
+            },
+            {
+                "name": "charger-and-adapter",
+                "image": {
+                    "url": "http://lorempixel.com",
+                    "secureUrl": "https://lorempixel.com"
+                },
+                "label": {
+                    "en": "Charger & Adapter",
+                    "th": "อุปกรณ์ชาร์จไฟ & อแดปเตอร์",
+                    "cn": "充电器及适配器"
+                }
+            },
+            {
+                "name": "beauty-and-personal-care-equipment",
+                "image": {
+                    "url": "http://lorempixel.com",
+                    "secureUrl": "https://lorempixel.com"
+                },
+                "label": {
+                    "en": "Beauty & Personal Care Equipment",
+                    "th": "เครื่องใช้ไฟฟ้าเพื่อความงาม",
+                    "cn": "美容护理用品"
+                },
+                "subCategories": [
+                    {
+                        "name": "hair-styling",
+                        "image": {
+                            "url": "http://lorempixel.com",
+                            "secureUrl": "https://lorempixel.com"
+                        },
+                        "label": {
+                            "en": "Hair Styling",
+                            "th": "อุปกรณ์จัดแต่งทรงผม",
+                            "cn": "美发造型器"
+                        }
+                    },
+                    {
+                        "name": "shaving",
+                        "image": {
+                            "url": "http://lorempixel.com",
+                            "secureUrl": "https://lorempixel.com"
+                        },
+                        "label": {
+                            "en": "Shaving",
+                            "th": "ผลิตภัณฑ์โกนหนวด",
+                            "cn": "电动剃须刀"
+                        }
+                    },
+                    {
+                        "name": "Hair Removal",
+                        "image": {
+                            "url": "http://lorempixel.com",
+                            "secureUrl": "https://lorempixel.com"
+                        },
+                        "label": {
+                            "en": "Hair Removal",
+                            "th": "ผลิตภัณฑ์กำจัดขน",
+                            "cn": "理发器"
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "other-electronic-accessories",
+                "image": {
+                    "url": "http://lorempixel.com",
+                    "secureUrl": "https://lorempixel.com"
+                },
+                "label": {
+                    "en": "Other Electronic Accessories",
+                    "th": "อุปกรณ์เสริมอิเล็คทรอนิกส์อื่นๆ",
+                    "cn": "其他电器配件"
+                }
+            }
+        ]
+    },
+    {
+        "name": "fashion",
+        "image": {
+            "url": "http://lorempixel.com",
+            "secureUrl": "https://lorempixel.com"
+        },
+        "label": {
+            "en": "Fashion",
+            "th": "แฟชั่น",
+            "cn": "女装"
+        },
+        "subCategories": [
+            {
+                "name": "clothing",
+                "image": {
+                    "url": "http://lorempixel.com",
+                    "secureUrl": "https://lorempixel.com"
+                },
+                "label": {
+                    "en": "clothing",
+                    "th": "เสื้อผ้า",
+                    "cn": "服装"
+                },
+                "subCategories": [
+                    {
+                        "name": "tops",
+                        "image": {
+                            "url": "http://lorempixel.com",
+                            "secureUrl": "https://lorempixel.com"
+                        },
+                        "label": {
+                            "en": "Tops",
+                            "th": "เสื้อ",
+                            "cn": "上衣"
+                        }
+                    },
+                    {
+                        "name": "bottoms",
+                        "image": {
+                            "url": "http://lorempixel.com",
+                            "secureUrl": "https://lorempixel.com"
+                        },
+                        "label": {
+                            "en": "Bottoms",
+                            "th": "กระโปรง & กางเกง",
+                            "cn": "下装"
+                        }
+                    },
+                    {
+                        "name": "dresses",
+                        "image": {
+                            "url": "http://lorempixel.com",
+                            "secureUrl": "https://lorempixel.com"
+                        },
+                        "label": {
+                            "en": "Dresses",
+                            "th": "ชุดเดรส",
+                            "cn": "连衣裙"
+                        }
+                    },
+                    {
+                        "name": "lingerie-and-underwear",
+                        "image": {
+                            "url": "http://lorempixel.com",
+                            "secureUrl": "https://lorempixel.com"
+                        },
+                        "label": {
+                            "en": "Lingerie & Underwear",
+                            "th": "ชุดชั้นใน",
+                            "cn": "内衣"
+                        }
+                    },
+                    {
+                        "name": "sportswear",
+                        "image": {
+                            "url": "http://lorempixel.com",
+                            "secureUrl": "https://lorempixel.com"
+                        },
+                        "label": {
+                            "en": "Sportswear",
+                            "th": "ชุดออกกำลังกาย",
+                            "cn": "运动服"
+                        }
+                    },
+                    {
+                        "name": "clothing-accessories",
+                        "image": {
+                            "url": "http://lorempixel.com",
+                            "secureUrl": "https://lorempixel.com"
+                        },
+                        "label": {
+                            "en": "Clothing Accessories",
+                            "th": "เครื่องประดับแฟชั่น",
+                            "cn": "服装饰品"
+                        },
+                        "subCategories": [
+                            {
+                                "name": "hats",
+                                "image": {
+                                    "url": "http://lorempixel.com",
+                                    "secureUrl": "https://lorempixel.com"
+                                },
+                                "label": {
+                                    "en": "Hats",
+                                    "th": "หมวก",
+                                    "cn": "帽子"
+                                }
+                            },
+                            {
+                                "name": "scarves",
+                                "image": {
+                                    "url": "http://lorempixel.com",
+                                    "secureUrl": "https://lorempixel.com"
+                                },
+                                "label": {
+                                    "en": "Scarves",
+                                    "th": "ผ้าพันคอ",
+                                    "cn": "围巾"
+                                }
+                            },
+                            {
+                                "name": "belts",
+                                "image": {
+                                    "url": "http://lorempixel.com",
+                                    "secureUrl": "https://lorempixel.com"
+                                },
+                                "label": {
+                                    "en": "Belts",
+                                    "th": "เข็มขัด",
+                                    "cn": "腰带"
+                                }
+                            },
+                            {
+                                "name": "socks",
+                                "image": {
+                                    "url": "http://lorempixel.com",
+                                    "secureUrl": "https://lorempixel.com"
+                                },
+                                "label": {
+                                    "en": "Socks",
+                                    "th": "ถุงเท้า",
+                                    "cn": "袜子"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "eyewear",
+                "image": {
+                    "url": "http://lorempixel.com",
+                    "secureUrl": "https://lorempixel.com"
+                },
+                "label": {
+                    "en": "Eyewear",
+                    "th": "แว่น",
+                    "cn": "眼镜"
+                },
+                "subCategories": [
+                    {
+                        "name": "sunglasses",
+                        "image": {
+                            "url": "http://lorempixel.com",
+                            "secureUrl": "https://lorempixel.com"
+                        },
+                        "label": {
+                            "en": "Sunglasses",
+                            "th": "แว่นกันแดด",
+                            "cn": "太阳眼镜"
+                        }
+                    },
+                    {
+                        "name": "reading_glasses",
+                        "image": {
+                            "url": "http://lorempixel.com",
+                            "secureUrl": "https://lorempixel.com"
+                        },
+                        "label": {
+                            "en": "Reading glasses",
+                            "th": "แว่นสายตา",
+                            "cn": "阅读眼镜"
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "watches-and-jewelry",
+                "image": {
+                    "url": "http://lorempixel.com",
+                    "secureUrl": "https://lorempixel.com"
+                },
+                "label": {
+                    "en": "Watches & Jewelry",
+                    "th": "นาฬิกา & เครื่องประดับ",
+                    "cn": "手表珠宝"
+                },
+                "subCategories": [
+                    {
+                        "name": "Watches",
+                        "image": {
+                            "url": "http://lorempixel.com",
+                            "secureUrl": "https://lorempixel.com"
+                        },
+                        "label": {
+                            "en": "Watches",
+                            "th": "นาฬิกา",
+                            "cn": "手表"
+                        }
+                    },
+                    {
+                        "name": "jewelry",
+                        "image": {
+                            "url": "http://lorempixel.com",
+                            "secureUrl": "https://lorempixel.com"
+                        },
+                        "label": {
+                            "en": "Jewelry",
+                            "th": "เครื่องประดับ",
+                            "cn": "珠宝配饰"
+                        },
+                        "subCategories": [
+                            {
+                                "name": "earrings",
+                                "image": {
+                                    "url": "http://lorempixel.com",
+                                    "secureUrl": "https://lorempixel.com"
+                                },
+                                "label": {
+                                    "en": "Earrings",
+                                    "th": "ต่างหู",
+                                    "cn": "耳饰"
+                                }
+                            },
+                            {
+                                "name": "necklaces",
+                                "image": {
+                                    "url": "http://lorempixel.com",
+                                    "secureUrl": "https://lorempixel.com"
+                                },
+                                "label": {
+                                    "en": "Necklaces",
+                                    "th": "สร้อยคอ",
+                                    "cn": "项链"
+                                }
+                            },
+                            {
+                                "name": "bracelets",
+                                "image": {
+                                    "url": "http://lorempixel.com",
+                                    "secureUrl": "https://lorempixel.com"
+                                },
+                                "label": {
+                                    "en": "Bracelets",
+                                    "th": "สร้อยข้อมือ",
+                                    "cn": "手镯"
+                                }
+                            },
+                            {
+                                "name": "rings",
+                                "image": {
+                                    "url": "http://lorempixel.com",
+                                    "secureUrl": "https://lorempixel.com"
+                                },
+                                "label": {
+                                    "en": "Rings",
+                                    "th": "แหวน",
+                                    "cn": "戒指"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "bags-luggage-and-travel",
+                "image": {
+                    "url": "http://lorempixel.com",
+                    "secureUrl": "https://lorempixel.com"
+                },
+                "label": {
+                    "en": "Bags, Luggage & Travel",
+                    "th": "กระเป๋า & กระเป๋าเดินทาง",
+                    "cn": "包及行李箱"
+                },
+                "subCategories": [
+                    {
+                        "name": "bags",
+                        "image": {
+                            "url": "http://lorempixel.com",
+                            "secureUrl": "https://lorempixel.com"
+                        },
+                        "label": {
+                            "en": "Bags",
+                            "th": "กระเป๋า",
+                            "cn": "包"
+                        },
+                        "subCategories": [
+                            {
+                                "name": "handbags",
+                                "image": {
+                                    "url": "http://lorempixel.com",
+                                    "secureUrl": "https://lorempixel.com"
+                                },
+                                "label": {
+                                    "en": "Handbags",
+                                    "th": "กระเป๋าถือ",
+                                    "cn": "手提包"
+                                }
+                            },
+                            {
+                                "name": "crossbody-and-shoulder-bags",
+                                "image": {
+                                    "url": "http://lorempixel.com",
+                                    "secureUrl": "https://lorempixel.com"
+                                },
+                                "label": {
+                                    "en": "Crossbody & Shoulder Bags",
+                                    "th": "กระเป๋าสะพาย",
+                                    "cn": "斜挎包"
+                                }
+                            },
+                            {
+                                "name": "satchels_and_messenger_bags",
+                                "image": {
+                                    "url": "http://lorempixel.com",
+                                    "secureUrl": "https://lorempixel.com"
+                                },
+                                "label": {
+                                    "en": "Satchels & Messenger Bags",
+                                    "th": "กระเป๋าทรงเมสเซนเจอร์",
+                                    "cn": "剑桥包&邮差包"
+                                }
+                            },
+                            {
+                                "name": "backpacks",
+                                "image": {
+                                    "url": "http://lorempixel.com",
+                                    "secureUrl": "https://lorempixel.com"
+                                },
+                                "label": {
+                                    "en": "Backpacks",
+                                    "th": "กระเป๋าเป้",
+                                    "cn": "背包"
+                                }
+                            },
+                            {
+                                "name": "clutches-and-wristlets",
+                                "image": {
+                                    "url": "http://lorempixel.com",
+                                    "secureUrl": "https://lorempixel.com"
+                                },
+                                "label": {
+                                    "en": "Clutches & Wristlets",
+                                    "th": "กระเป๋าคลัทช์ & กระเป๋าคล้องมือ",
+                                    "cn": "手拿包"
+                                }
+                            },
+                            {
+                                "name": "wallets-and-purses",
+                                "image": {
+                                    "url": "http://lorempixel.com",
+                                    "secureUrl": "https://lorempixel.com"
+                                },
+                                "label": {
+                                    "en": "Wallets & Purses",
+                                    "th": "กระเป๋าสตางค์",
+                                    "cn": "钱包"
+                                }
+                            },
+                            {
+                                "name": "card-cases-and-other-bags",
+                                "image": {
+                                    "url": "http://lorempixel.com",
+                                    "secureUrl": "https://lorempixel.com"
+                                },
+                                "label": {
+                                    "en": "Card Cases & Other Bags",
+                                    "th": "ซองใส่นามบัตร & กระเป๋าประเภทอื่นๆ",
+                                    "cn": "卡包及其他包款"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "luggage-and-travel",
+                        "image": {
+                            "url": "http://lorempixel.com",
+                            "secureUrl": "https://lorempixel.com"
+                        },
+                        "label": {
+                            "en": "Luggage & Travel",
+                            "th": "กระเป๋าเดินทาง",
+                            "cn": "行李箱"
+                        },
+                        "subCategories": [
+                            {
+                                "name": "luggage",
+                                "image": {
+                                    "url": "http://lorempixel.com",
+                                    "secureUrl": "https://lorempixel.com"
+                                },
+                                "label": {
+                                    "en": "Luggage",
+                                    "th": "กระเป๋าเดินทาง",
+                                    "cn": "行李箱"
+                                }
+                            },
+                            {
+                                "name": "travel-accessories",
+                                "image": {
+                                    "url": "http://lorempixel.com",
+                                    "secureUrl": "https://lorempixel.com"
+                                },
+                                "label": {
+                                    "en": "Travel Accessories",
+                                    "th": "อุปกรณ์เดินทาง",
+                                    "cn": "箱包配件"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "shoes",
+                "image": {
+                    "url": "http://lorempixel.com",
+                    "secureUrl": "https://lorempixel.com"
+                },
+                "label": {
+                    "en": "Shoes",
+                    "th": "รองเท้า",
+                    "cn": "鞋子"
+                }
+            },
+            {
+                "name": "other-fashion-accessories",
+                "image": {
+                    "url": "http://lorempixel.com",
+                    "secureUrl": "https://lorempixel.com"
+                },
+                "label": {
+                    "en": "other-fashion-accessories",
+                    "th": "สินค้าแฟชั่นประเภทอื่นๆ",
+                    "cn": "其他时尚配饰品"
+                }
+            }
+        ]
+    },
+    {
+        "name": "food-and-beverages",
+        "image": {
+            "url": "http://lorempixel.com",
+            "secureUrl": "https://lorempixel.com"
+        },
+        "label": {
+            "en": "Foods & Beverages",
+            "th": "อาหาร & เครื่องดื่ม",
+            "cn": "食品&饮料"
+        },
+        "subCategories": [
+            {
+                "name": "rice-packaged-foods-and-cooking-ingredients",
+                "image": {
+                    "url": "http://lorempixel.com",
+                    "secureUrl": "https://lorempixel.com"
+                },
+                "label": {
+                    "en": "Rice, Packaged foods & Cooking Ingredients",
+                    "th": "ข้าว, อาหารสำเร็จรูป, เครื่องปรุง",
+                    "cn": "大米, 方便食品，调料"
+                },
+                "subCategories": [
+                    {
+                        "name": "rice",
+                        "image": {
+                            "url": "http://lorempixel.com",
+                            "secureUrl": "https://lorempixel.com"
+                        },
+                        "label": {
+                            "en": "Rice",
+                            "th": "ข้าว",
+                            "cn": "大米"
+                        }
+                    },
+                    {
+                        "name": "packaged_foods",
+                        "image": {
+                            "url": "http://lorempixel.com",
+                            "secureUrl": "https://lorempixel.com"
+                        },
+                        "label": {
+                            "th": "Packaged Foods",
+                            "en": "อาหารสำเร็จรูป",
+                            "cn": "方便食品"
+                        }
+                    },
+                    {
+                        "name": "curry-pastes-and-cooking-ingredients",
+                        "image": {
+                            "url": "http://lorempixel.com",
+                            "secureUrl": "https://lorempixel.com"
+                        },
+                        "label": {
+                            "en": "Curry Pastes & Cooking Ingredients",
+                            "th": "เครื่องแกงพร้อมปรุง & เครื่องปรุงอาหารอื่นๆ",
+                            "cn": "泰式咖喱酱块&调味料"
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "dried_fruits",
+                "image": {
+                    "url": "http://lorempixel.com",
+                    "secureUrl": "https://lorempixel.com"
+                },
+                "label": {
+                    "en": "Dried Fruits",
+                    "th": "ผลไม้แห้ง",
+                    "cn": "水果干"
+                }
+            },
+            {
+                "name": "chocolate-snacks-and-confectionery",
+                "image": {
+                    "url": "http://lorempixel.com",
+                    "secureUrl": "https://lorempixel.com"
+                },
+                "label": {
+                    "en": "Chocolate, Snacks & Confectionery",
+                    "th": "ช็อกโกแลต, ของขบเคี้ยว & ขนม",
+                    "cn": "巧克力，零食 & 糖食"
+                },
+                "subCategories": [
+                    {
+                        "name": "chocolates",
+                        "label": {
+                            "en": "Chocolates",
+                            "th": "ช็อกโกแลต",
+                            "cn": "巧克力"
+                        }
+                    },
+                    {
+                        "name": "snacks-and-confectionery",
+                        "image": {
+                            "url": "http://lorempixel.com",
+                            "secureUrl": "https://lorempixel.com"
+                        },
+                        "label": {
+                            "en": "Snacks & Confectionery",
+                            "th": "ของขบเคี้ยว & ขนม",
+                            "cn": "零食 & 糖食"
+                        },
+                        "subCategories": [
+                            {
+                                "name": "nuts-and-beans",
+                                "image": {
+                                    "url": "http://lorempixel.com",
+                                    "secureUrl": "https://lorempixel.com"
+                                },
+                                "label": {
+                                    "en": "Nuts & Beans",
+                                    "th": "ถั่ว",
+                                    "cn": "坚果和豆类"
+                                }
+                            },
+                            {
+                                "name": "snacks-and-biscuit",
+                                "image": {
+                                    "url": "http://lorempixel.com",
+                                    "secureUrl": "https://lorempixel.com"
+                                },
+                                "label": {
+                                    "th": "Snacks & Biscuit",
+                                    "en": "บิสกิต & ขนมของว่าง",
+                                    "cn": "零食 & 饼干"
+                                }
+                            },
+                            {
+                                "name": "candy-and-gum",
+                                "image": {
+                                    "url": "http://lorempixel.com",
+                                    "secureUrl": "https://lorempixel.com"
+                                },
+                                "label": {
+                                    "en": "Candy & Gum",
+                                    "th": "ลูกอม & หมากฝรั่ง",
+                                    "cn": "糖果 & 口香糖"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "beverages",
+                "image": {
+                    "url": "http://lorempixel.com",
+                    "secureUrl": "https://lorempixel.com"
+                },
+                "label": {
+                    "en": "beverages",
+                    "th": "เครื่องดื่ม",
+                    "cn": "饮料"
+                },
+                "subCategories": [
+                    {
+                        "name": "wine-and-spirits",
+                        "image": {
+                            "url": "http://lorempixel.com",
+                            "secureUrl": "https://lorempixel.com"
+                        },
+                        "label": {
+                            "en": "Wine & Spirits",
+                            "th": "ไวน์ & เครื่องดื่มแอลกอฮอล์",
+                            "cn": "葡萄酒"
+                        },
+                        "subCategories": [
+                            {
+                                "name": "wine-and-champagne",
+                                "image": {
+                                    "url": "http://lorempixel.com",
+                                    "secureUrl": "https://lorempixel.com"
+                                },
+                                "label": {
+                                    "en": "Wine & Champagne",
+                                    "th": "ไวน์ & แชมเปญ",
+                                    "cn": "葡萄酒 & 香槟酒"
+                                }
+                            },
+                            {
+                                "name": "liquors",
+                                "image": {
+                                    "url": "http://lorempixel.com",
+                                    "secureUrl": "https://lorempixel.com"
+                                },
+                                "label": {
+                                    "en": "Liquors",
+                                    "th": "สุรา",
+                                    "cn": "酒精饮料"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "non-alcoholic-beverages",
+                        "image": {
+                            "url": "http://lorempixel.com",
+                            "secureUrl": "https://lorempixel.com"
+                        },
+                        "label": {
+                            "en": "Non-alcoholic beverages",
+                            "th": "เครื่องดื่มไม่มีแอลกอฮอล์",
+                            "cn": "非酒精饮料"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "health-personal-care",
+        "image": {
+            "url": "http://lorempixel.com",
+            "secureUrl": "https://lorempixel.com"
+        },
+        "label": {
+            "en": "Health & Personal Care",
+            "th": "สุขภาพ & ของใช้ส่วนตัว",
+            "cn": "健康商品及护理用品"
+        },
+        "subCategories": [
+            {
+                "name": "health",
+                "image": {
+                    "url": "http://lorempixel.com",
+                    "secureUrl": "https://lorempixel.com"
+                },
+                "label": {
+                    "en": "Health",
+                    "th": "สุขภาพ",
+                    "cn": "健康商品"
+                },
+                "subCategories": [
+                    {
+                        "name": "food-supplement-and-vitamins",
+                        "image": {
+                            "url": "http://lorempixel.com",
+                            "secureUrl": "https://lorempixel.com"
+                        },
+                        "label": {
+                            "en": "Food Supplement & Vitamins",
+                            "th": "อาหารเสริมและวิตามิน",
+                            "cn": "营养品及维生素"
+                        }
+                    },
+                    {
+                        "name": "pharmaceutical-products",
+                        "image": {
+                            "url": "http://lorempixel.com",
+                            "secureUrl": "https://lorempixel.com"
+                        },
+                        "label": {
+                            "en": "Pharmaceutical Products",
+                            "th": "ผลิตภัณฑ์ยาและอุปกรณ์เพื่อสุขภาพ",
+                            "cn": "医药产品"
+                        }
+                    },
+                    {
+                        "name": "traditional-medicine-and-treatment",
+                        "image": {
+                            "url": "http://lorempixel.com",
+                            "secureUrl": "https://lorempixel.com"
+                        },
+                        "label": {
+                            "en": "Traditional medicine & treatment",
+                            "th": "ผลิตภัณฑ์ยาแผนโบราณ",
+                            "cn": "传统医药"
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "personal-care",
+                "image": {
+                    "url": "http://lorempixel.com",
+                    "secureUrl": "https://lorempixel.com"
+                },
+                "label": {
+                    "en": "Personal Care",
+                    "th": "ของใช้ส่วนตัว",
+                    "cn": "护理用品"
+                },
+                "subCategories": [
+                    {
+                        "name": "hair-care",
+                        "image": {
+                            "url": "http://lorempixel.com",
+                            "secureUrl": "https://lorempixel.com"
+                        },
+                        "label": {
+                            "en": "Hair Care",
+                            "th": "ผลิตภัณฑ์ดูแลผม",
+                            "cn": "护发用品"
+                        }
+                    },
+                    {
+                        "name": "hair-styling",
+                        "image": {
+                            "url": "http://lorempixel.com",
+                            "secureUrl": "https://lorempixel.com"
+                        },
+                        "label": {
+                            "en": "Hair Styling",
+                            "th": "อุปกรณ์จัดแต่งทรงผม",
+                            "cn": "护发美发造型用品用品"
+                        }
+                    },
+                    {
+                        "name": "shaving",
+                        "image": {
+                            "url": "http://lorempixel.com",
+                            "secureUrl": "https://lorempixel.com"
+                        },
+                        "label": {
+                            "en": "Shaving",
+                            "th": "ผลิตภัณฑ์โกนหนวด",
+                            "cn": "剃须用品"
+                        }
+                    },
+                    {
+                        "name": "hair-removal",
+                        "image": {
+                            "url": "http://lorempixel.com",
+                            "secureUrl": "https://lorempixel.com"
+                        },
+                        "label": {
+                            "en": "Hair Removal",
+                            "th": "ผลิตภัณฑ์กำจัดขน",
+                            "cn": "理发用品"
+                        }
+                    },
+                    {
+                        "name": "bath-and-shower",
+                        "image": {
+                            "url": "http://lorempixel.com",
+                            "secureUrl": "https://lorempixel.com"
+                        },
+                        "label": {
+                            "en": "Bath & Shower",
+                            "th": "ผลิตภัณฑ์อาบน้ำ",
+                            "cn": "洗澡用品"
+                        }
+                    },
+                    {
+                        "name": "deodorant",
+                        "image": {
+                            "url": "http://lorempixel.com",
+                            "secureUrl": "https://lorempixel.com"
+                        },
+                        "label": {
+                            "en": "Deodorant",
+                            "th": "ผลิตภัณฑ์ระงับกลิ่นกาย",
+                            "cn": "止汗用品"
+                        }
+                    },
+                    {
+                        "name": "personal-care-accessories",
+                        "image": {
+                            "url": "http://lorempixel.com",
+                            "secureUrl": "https://lorempixel.com"
+                        },
+                        "label": {
+                            "en": "Personal Care Accessories",
+                            "th": "อุปกรณ์ของใช้ส่วนตัวอื่นๆ",
+                            "cn": "其他护理用品配件"
+                        }
+                    },
+                    {
+                        "name": "personal-care-gift-set",
+                        "image": {
+                            "url": "http://lorempixel.com",
+                            "secureUrl": "https://lorempixel.com"
+                        },
+                        "label": {
+                            "en": "Personal Care Gift Set",
+                            "th": "ชุดผลิตภัณฑ์ของใช้ส่วนตัว",
+                            "cn": "护理用品礼品套装"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "home-and-living",
+        "image": {
+            "url": "http://lorempixel.com",
+            "secureUrl": "https://lorempixel.com"
+        },
+        "label": {
+            "en": "Home & Living",
+            "th": "ของใช้ในบ้าน",
+            "cn": "家居用品"
+        },
+        "subCategories": [
+            {
+                "name": "home-electrics",
+                "image": {
+                    "url": "http://lorempixel.com",
+                    "secureUrl": "https://lorempixel.com"
+                },
+                "label": {
+                    "en": "Home Electrics",
+                    "th": "เครื่องใช้ไฟฟ้าในบ้าน",
+                    "cn": "家电"
+                },
+                "subCategories": [
+                    {
+                        "name": "home-appliances",
+                        "image": {
+                            "url": "http://lorempixel.com",
+                            "secureUrl": "https://lorempixel.com"
+                        },
+                        "label": {
+                            "en": "Home Appliances",
+                            "th": "เครื่องใช้ไฟฟ้าในบ้าน",
+                            "cn": "家用电器"
+                        }
+                    },
+                    {
+                        "name": "kitchen-appliances",
+                        "image": {
+                            "url": "http://lorempixel.com",
+                            "secureUrl": "https://lorempixel.com"
+                        },
+                        "label": {
+                            "en": "Kitchen Appliances",
+                            "th": "เครื่องใช้ไฟฟ้าในครัว",
+                            "cn": "厨房电器"
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "home-decoration",
+                "image": {
+                    "url": "http://lorempixel.com",
+                    "secureUrl": "https://lorempixel.com"
+                },
+                "label": {
+                    "en": "Home Decoration",
+                    "th": "ของตกแต่งบ้าน",
+                    "cn": "家居装饰"
+                },
+                "subCategories": [
+                    {
+                        "name": "home-fragrance",
+                        "image": {
+                            "url": "http://lorempixel.com",
+                            "secureUrl": "https://lorempixel.com"
+                        },
+                        "label": {
+                            "en": "Home Fragrance",
+                            "th": "น้ำหอมปรับอากาศในบ้าน",
+                            "cn": "家用香水"
+                        },
+                        "subCategories": [
+                            {
+                                "name": "home-fragrance-accessories",
+                                "image": {
+                                    "url": "http://lorempixel.com",
+                                    "secureUrl": "https://lorempixel.com"
+                                },
+                                "label": {
+                                    "en": "Home Fragrance Accessories",
+                                    "th": "อุปกรณ์น้ำหอมปรับอากาศบ้าน",
+                                    "cn": "家用香水配件"
+                                }
+                            },
+                            {
+                                "name": "essential-oil",
+                                "image": {
+                                    "url": "http://lorempixel.com",
+                                    "secureUrl": "https://lorempixel.com"
+                                },
+                                "label": {
+                                    "en": "Essential Oil",
+                                    "th": "น้ำมันหอมระเหย",
+                                    "cn": "芳香"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "other-home-decoration-items",
+                        "image": {
+                            "url": "http://lorempixel.com",
+                            "secureUrl": "https://lorempixel.com"
+                        },
+                        "label": {
+                            "en": "Other Home Decoration Items",
+                            "th": "ของตกแต่งบ้านอื่นๆ",
+                            "cn": "家具, 装饰品"
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "kitchenware-and-utensils",
+                "image": {
+                    "url": "http://lorempixel.com",
+                    "secureUrl": "https://lorempixel.com"
+                },
+                "label": {
+                    "en": "Kitchenware & Utensils",
+                    "th": "เครื่องครัว & ภาชนะ",
+                    "cn": "厨房工具"
+                }
+            },
+            {
+                "name": "stationery-and-office-supplies",
+                "image": {
+                    "url": "http://lorempixel.com",
+                    "secureUrl": "https://lorempixel.com"
+                },
+                "label": {
+                    "en": "Stationery & Office Supplies",
+                    "th": "เครื่องเขียน & อุปกรณ์สำนักงาน",
+                    "cn": "书写工具 & 办公家具"
+                },
+                "subCategories": [
+                    {
+                        "name": "writing-instruments",
+                        "image": {
+                            "url": "http://lorempixel.com",
+                            "secureUrl": "https://lorempixel.com"
+                        },
+                        "label": {
+                            "en": "Writing Instruments",
+                            "th": "อุปกรณ์เครื่องเขียน",
+                            "cn": "书写工具 & 办公家具"
+                        }
+                    },
+                    {
+                        "name": "books-and-notebooks",
+                        "image": {
+                            "url": "http://lorempixel.com",
+                            "secureUrl": "https://lorempixel.com"
+                        },
+                        "label": {
+                            "en": "Books & Notebooks",
+                            "th": "หนังสือ & สมุด",
+                            "cn": "书 & 笔记本"
+                        }
+                    },
+                    {
+                        "name": "other-office-supplies",
+                        "image": {
+                            "url": "http://lorempixel.com",
+                            "secureUrl": "https://lorempixel.com"
+                        },
+                        "label": {
+                            "en": "Other Office Supplies",
+                            "th": "เครื่องเขียน & อุปกรณ์สำนักงานอื่นๆ",
+                            "cn": "办公设备及耗材"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "kids",
+        "image": {
+            "url": "http://lorempixel.com",
+            "secureUrl": "https://lorempixel.com"
+        },
+        "label": {
+            "en": "Kids",
+            "th": "ผลิตภัณฑ์สำหรับแม่และเด็ก",
+            "cn": "母婴用品"
+        },
+        "subCategories": [
+            {
+                "name": "kids-clothing",
+                "image": {
+                    "url": "http://lorempixel.com",
+                    "secureUrl": "https://lorempixel.com"
+                },
+                "label": {
+                    "en": "Kids' Clothing",
+                    "th": "เสื้อผ้าเด็ก",
+                    "cn": "童装亲子装"
+                }
+            },
+            {
+                "name": "kids-fashion-accessories",
+                "image": {
+                    "url": "http://lorempixel.com",
+                    "secureUrl": "https://lorempixel.com"
+                },
+                "label": {
+                    "en": "Kids' Fashion Accessories",
+                    "th": "เครื่องประดับสำหรับเด็ก",
+                    "cn": "儿童时尚饰品"
+                }
+            },
+            {
+                "name": "toys",
+                "image": {
+                    "url": "http://lorempixel.com",
+                    "secureUrl": "https://lorempixel.com"
+                },
+                "label": {
+                    "en": "Toys",
+                    "th": "ของเล่นสำหรับเด็ก",
+                    "cn": "玩具"
+                }
+            },
+            {
+                "name": "moms-and-kids-essentials",
+                "image": {
+                    "url": "http://lorempixel.com",
+                    "secureUrl": "https://lorempixel.com"
+                },
+                "label": {
+                    "en": "Moms & Kids Essentials",
+                    "th": "ของใช้จำเป็นสำหรับแม่และเด็ก",
+                    "cn": "其他必备的母婴用品"
+                },
+                "subCategories": [
+                    {
+                        "name": "feeding-bottles-and-accessories",
+                        "image": {
+                            "url": "http://lorempixel.com",
+                            "secureUrl": "https://lorempixel.com"
+                        },
+                        "label": {
+                            "en": "Feeding Bottles & Accessories",
+                            "th": "ขวดนม & อุปกรณ์",
+                            "cn": "奶瓶及婴童用品"
+                        }
+                    },
+                    {
+                        "name": "feeding-utensils",
+                        "image": {
+                            "url": "http://lorempixel.com",
+                            "secureUrl": "https://lorempixel.com"
+                        },
+                        "label": {
+                            "en": "Feeding Utensils",
+                            "th": "อุปกรณ์รับประทานอาหารสำหรับเด็ก",
+                            "cn": "婴童餐具"
+                        }
+                    },
+                    {
+                        "name": "other-moms-kids-products",
+                        "image": {
+                            "url": "http://lorempixel.com",
+                            "secureUrl": "https://lorempixel.com"
+                        },
+                        "label": {
+                            "en": "Other Moms & Kids Products",
+                            "th": "ของใช้อื่นๆ สำหรับแม่และเด็ก",
+                            "cn": "其他必备的母婴用品"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "souvenirs",
+        "image": {
+            "url": "http://lorempixel.com",
+            "secureUrl": "https://lorempixel.com"
+        },
+        "label": {
+            "en": "Souvenirs",
+            "th": "ของที่ระลึก",
+            "cn": "纪念品"
+        },
+        "subCategories": [
+            {
+                "name": "arts-and-crafts",
+                "image": {
+                    "url": "http://lorempixel.com",
+                    "secureUrl": "https://lorempixel.com"
+                },
+                "label": {
+                    "en": "Arts & Crafts",
+                    "th": "ศิลปะ & งานฝีมือ",
+                    "cn": "手工艺品"
+                }
+            },
+            {
+                "name": "keychains",
+                "image": {
+                    "url": "http://lorempixel.com",
+                    "secureUrl": "https://lorempixel.com"
+                },
+                "label": {
+                    "en": "Keychains",
+                    "th": "พวงกุญแจ",
+                    "cn": "钥匙扣"
+                }
+            },
+            {
+                "name": "other-souvenirs",
+                "image": {
+                    "url": "http://lorempixel.com",
+                    "secureUrl": "https://lorempixel.com"
+                },
+                "label": {
+                    "en": "Other Souvenirs",
+                    "th": "ของที่ระลึกอื่นๆ",
+                    "cn": "其他纪念品"
+                }
+            }
+        ]
+    }
+]

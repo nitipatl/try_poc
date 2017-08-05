@@ -4,7 +4,7 @@ import * as koaBody from 'koa-bodyparser'
 
 import { graphqlKoa, graphiqlKoa } from 'apollo-server-koa';
 import { schema } from './graphql'
-import { HTTPProductAPI } from './api'
+import { HTTPProductAPI, HTTPCategoryAPI } from './api'
 
 const port = Number.parseInt(process.env.PORT) || 9000
 
@@ -13,7 +13,8 @@ const router = new KoaRouter()
 const env = process.env.NODE_DEV || 'local'
 
 const api = {
-  product: new HTTPProductAPI()
+  product: new HTTPProductAPI(),
+  category: new HTTPCategoryAPI()
 }
 
 const graphqlMiddleware = graphqlKoa((ctx) => ({

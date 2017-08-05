@@ -21,6 +21,9 @@ export class HTTPProductAPI implements ProductAPI {
     if( args['id'] ) {
       return [results[args['id']]]
     }
+    if ( args['limit'] ) {
+      return [{'productName': 1}];
+    }
     return results
   }
 }
