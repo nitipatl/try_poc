@@ -8,4 +8,4 @@ TODO-List
     * [x] Category C mutation
     * [x] Category R mutation
     * [X] Category U mutaion
-    * [ ] Category D mutaion
+    * [X] Category D mutaion
