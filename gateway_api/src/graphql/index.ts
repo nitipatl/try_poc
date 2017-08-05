@@ -8,7 +8,7 @@ import { GraphQLSchema,
     GraphQLBoolean,
    } from 'graphql'
 
-import { Product } from './product_type'
+import { Product } from '../schema/product'
 import { CategoryType, LocaleInput } from '../schema/category'
 import { ProductAPI, CategoryAPI } from '../api'
 
