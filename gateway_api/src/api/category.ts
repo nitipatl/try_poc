@@ -3,6 +3,8 @@ import fetch from 'node-fetch'
 export interface CategoryAPI {
   list(args: object)
   insert(args: object)
+  update(id: number, args: object)
+  delete(id: number)
 }
 
 export class HTTPCategoryAPI implements CategoryAPI {
@@ -26,15 +28,30 @@ export class HTTPCategoryAPI implements CategoryAPI {
   ];
 
   public insert(args: object) {
+    
     this.results.push({
         name: args['name'], 
         image: args['image'], 
-        label: {en: "OK", th: "ok", cn: "OK"}
-    });
-    return this.results;
+        label: args['label']
+    })
+    return this.results
+  }
+  public update(id: number, args: object) {
+    id -= 1
+    this.results[id] = {
+        name: args['name'], 
+        image: args['image'], 
+        label: args['label']
+    }
+    return this.results[id]
+  }
+  public delete(id: number) {
+    id -= 1
+    this.results.splice(id, 1)
+    return this.results
   }
   public list(args: object) {
-    
+
     if( args['id'] ) {
       return [this.results[args['id']]]
     }

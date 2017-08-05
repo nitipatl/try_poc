@@ -8,29 +8,11 @@ import { GraphQLSchema,
     GraphQLBoolean,
    } from 'graphql'
 
-import { Product } from './product_type'
-import { CategoryType, LocaleType } from '../schema/category'
+import { Product } from '../schema/product'
+import { CategoryType, LocaleInput, CategoryInput } from '../schema/category'
 import { ProductAPI, CategoryAPI } from '../api'
 
 export const schema = new GraphQLSchema({
-  mutation: new GraphQLObjectType({
-    name: 'Category',
-    fields: {
-      insertCategory: {
-        type: new GraphQLList(CategoryType),
-        args: {
-          name: { type: GraphQLString },
-          image: { type: GraphQLString },
-          label: { type: LocaleType }
-        },
-        resolve: (source, args, { api: { categ ory } }: { api: { category: CategoryAPI } }) => {
-          var re = category.insert(args)
-          return re
-        }
-      },
-      
-    }
-  }),
   query: new GraphQLObjectType({
     name: 'Query',
     fields: {
@@ -58,6 +40,42 @@ export const schema = new GraphQLSchema({
           return re
         }
       },
+    }
+  }),
+  mutation: new GraphQLObjectType({
+    name: 'Category',
+    fields: {
+      insertCategory: {
+        type: new GraphQLList(CategoryType),
+        args: {
+          input: {type: CategoryInput}
+        },
+        resolve: (source, args, { api: { category } }: { api: { category: CategoryAPI } }) => {
+          var re = category.insert(args.input)
+          return re
+        }
+      },
+      updateCategory: {
+        type: CategoryType,
+        args: {
+          id: {type: new GraphQLNonNull(GraphQLID)},
+          input: {type: CategoryInput}
+        },
+        resolve: (source, args, { api: { category } }: { api: { category: CategoryAPI } }) => {
+          var re = category.update(args.id, args.input)
+          return re
+        }
+      },
+      deleteCategory: {
+        type: new GraphQLList(CategoryType),
+        args: {
+          id: {type: new GraphQLNonNull(GraphQLID)}
+        },
+        resolve: (source, args, { api: { category } }: { api: { category: CategoryAPI } }) => {
+          var re = category.delete(args.id)
+          return re
+        }
+      }
     }
   })
 })
