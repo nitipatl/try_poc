@@ -10,3 +10,4 @@ TODO-List
 * [x] Testing Gateway API with Silk
 * [ ] Testing REST API with Robotframwork
 * [ ] Testing Web UI with Robotframwork
+* [ ] Playing [GraphQL Faker](https://github.com/APIs-guru/graphql-faker)
