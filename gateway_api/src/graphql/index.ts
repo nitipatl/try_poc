@@ -9,7 +9,7 @@ import { GraphQLSchema,
    } from 'graphql'
 
 import { Product } from '../schema/product'
-import { CategoryType, LocaleInput } from '../schema/category'
+import { CategoryType, LocaleInput, CategoryInput } from '../schema/category'
 import { ProductAPI, CategoryAPI } from '../api'
 
 export const schema = new GraphQLSchema({
@@ -48,16 +48,24 @@ export const schema = new GraphQLSchema({
       insertCategory: {
         type: new GraphQLList(CategoryType),
         args: {
-          name: { type: new GraphQLNonNull(GraphQLString) },
-          image: { type: new GraphQLNonNull(GraphQLString) },
-          label: { type: new GraphQLNonNull(LocaleInput) }
+          input: {type: CategoryInput}
         },
         resolve: (source, args, { api: { category } }: { api: { category: CategoryAPI } }) => {
-          var re = category.insert(args)
+          var re = category.insert(args.input)
           return re
         }
       },
-      
+      updateCategory: {
+        type: CategoryType,
+        args: {
+          id: {type: new GraphQLNonNull(GraphQLID)},
+          input: {type: CategoryInput}
+        },
+        resolve: (source, args, { api: { category } }: { api: { category: CategoryAPI } }) => {
+          var re = category.update(args.id, args.input)
+          return re
+        }
+      }
     }
   })
 })

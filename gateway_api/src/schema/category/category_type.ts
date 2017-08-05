@@ -37,3 +37,13 @@ export const LocaleInput = new GraphQLInputObjectType ({
         cn: { type: GraphQLString }
     }
 })
+
+export const CategoryInput = new GraphQLInputObjectType ({
+    name: 'CategoryInput',
+    fields: {
+        name: { type: new GraphQLNonNull(GraphQLString) },
+        image: { type: new GraphQLNonNull(GraphQLString) },
+        label: { type: new GraphQLNonNull(LocaleInput) }
+    }
+})
+

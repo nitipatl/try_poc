@@ -7,5 +7,5 @@ TODO-List
 * [ ] Category CRUD mutation
     * [x] Category C mutation
     * [x] Category R mutation
-    * [ ] Category U mutaion
+    * [X] Category U mutaion
     * [ ] Category D mutaion

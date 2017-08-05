@@ -3,6 +3,7 @@ import fetch from 'node-fetch'
 export interface CategoryAPI {
   list(args: object)
   insert(args: object)
+  update(id: number, args: object)
 }
 
 export class HTTPCategoryAPI implements CategoryAPI {
@@ -33,6 +34,15 @@ export class HTTPCategoryAPI implements CategoryAPI {
         label: args['label']
     });
     return this.results;
+  }
+  public update(id: number, args: object) {
+    id -= 1
+    this.results[id] = {
+        name: args['name'], 
+        image: args['image'], 
+        label: args['label']
+    };
+    return this.results[id];
   }
   public list(args: object) {
 
