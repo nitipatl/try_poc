@@ -51,9 +51,9 @@ export class HTTPCategoryAPI implements CategoryAPI {
     return this.results
   }
   public list(args: object) {
-
+    
     if( args['id'] ) {
-      return [this.results[args['id']]]
+      return [this.results[args['id']-1]]
     }
     return this.results
   }
