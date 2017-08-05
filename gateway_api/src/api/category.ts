@@ -26,15 +26,16 @@ export class HTTPCategoryAPI implements CategoryAPI {
   ];
 
   public insert(args: object) {
+    
     this.results.push({
         name: args['name'], 
         image: args['image'], 
-        label: {en: "OK", th: "ok", cn: "OK"}
+        label: args['label']
     });
     return this.results;
   }
   public list(args: object) {
-    
+
     if( args['id'] ) {
       return [this.results[args['id']]]
     }
