@@ -1,0 +1,87 @@
+{
+	"variables": [],
+	"info": {
+		"name": "Category graph testing",
+		"_postman_id": "a05236ff-739c-871c-83ca-56b177097a84",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "List of all categories",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"tests[\"Status code is 200\"] = responseCode.code === 200;",
+							"",
+							"var jsonData = JSON.parse(responseBody);",
+							"tests[\"Length of categories is 2\"] = jsonData[\"data\"][\"getCategoryList\"].length === 2;",
+							"",
+							"tests[\"1st Category's name is Product name 01\"] = jsonData[\"data\"][\"getCategoryList\"][0].name === \"Product name 01\";",
+							"tests[\"1st Category's image is Short 01\"] = jsonData[\"data\"][\"getCategoryList\"][0].image === \"Short 01\";",
+							"tests[\"2nd Category's name is Product name 02\"] = jsonData[\"data\"][\"getCategoryList\"][1].name === \"Product name 02\";",
+							"tests[\"2nd Category's image is Short 02\"] = jsonData[\"data\"][\"getCategoryList\"][1].image === \"Short 02\";"
+						]
+					}
+				}
+			],
+			"request": {
+				"url": "http://localhost:9000/graphql",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"query\":\"{getCategoryList {name image}}\",\"variables\":null,\"operationName\":null}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Show category id = 1",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"tests[\"Status code is 200\"] = responseCode.code === 200;",
+							"",
+							"var jsonData = JSON.parse(responseBody);",
+							"tests[\"Length of categories is 1\"] = jsonData[\"data\"][\"getCategoryList\"].length === 1;",
+							"",
+							"tests[\"Category's name is Product name 01\"] = jsonData[\"data\"][\"getCategoryList\"][0].name === \"Product name 01\";",
+							"tests[\"Category's image is Short 01\"] = jsonData[\"data\"][\"getCategoryList\"][0].image === \"Short 01\";"
+						]
+					}
+				}
+			],
+			"request": {
+				"url": "http://localhost:9000/graphql",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"query\":\"{getCategoryList(id: 1) {name image}}\",\"variables\":null,\"operationName\":null}"
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
