@@ -13,7 +13,7 @@ Show only category id = 1
 List of all categories
   Create Session   api-gateway    http://localhost:9000
   &{headers}=   Create Dictionary   Content-Type=application/json
-  &{data}=   Create Dictionary   query={getCategoryList {name image label {en th cn}}}
+  &{data}=   Create Dictionary   query={getCategoryList {name image}}
   ${response}=   Post Request    api-gateway   /graphql   data=${data}  headers=${headers}
   Should Be Equal As Strings    ${response.status_code}    200
 
